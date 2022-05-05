@@ -1,0 +1,9 @@
+version: '2'
+services:
+  resolve:
+    build:
+      context: ./mdns-resolve
+      dockerfile: Dockerfile
+    restart: 'no'
+    network_mode: host
+
